@@ -58,6 +58,7 @@ td{
 .btn-primary{
     background-color: #658EA9;
     font-size: 20px;
+    font-family: 'Oxygen', serif;
 }
 
 .btn-primary:hover{
@@ -85,9 +86,11 @@ td{
 .btn-secondary{
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: 'Oxygen', serif;
 }
 .accordion-button{
     font-weight: bold;
+    font-size: 20px;
 }
 .directory{
     background-color: #88B2CC;
@@ -105,7 +108,48 @@ height:100%;
 width:100%;
 position:absolute;
 }
+.panel{
+  max-height: 0;
+}
+.accordion-body{
+  background-color: #fce9d4;
+}
+.accordion-button{
+  background-color: #fce9d4;
+}
+.accordion-button:hover{
+    background-color: #fce9d4;
+}
 
+.accordion-button:focus{
+    background-color: #E7D4C0;
+}
+
+.accordion-button:active{
+    background-color: #E7D4C0;
+    box-shadow: 0 1px 1px #4e6d82 inset, 0 0 8px #4e6d82;
+    outline: 0 none;
+    color: black;
+}
+.accordion-button:not(:disabled):not(.disabled):active{
+  background-color: #E7D4C0;
+  outline: 0 none;
+  color: black;
+}
+
+.accordion-button:not(:disabled):not(.disabled):focus{
+  box-shadow: 0 0 5px #E7D4C0;
+  color: black;
+  background-color: #E7D4C0;
+}
+.accordion-button:not(:disabled):not(.disabled){
+  box-shadow: 0 0 5px #fce9d4;
+  color: black;
+  background-color: #fce9d4;
+}
+#book{
+  background-color: #E98973;
+}
 #signature{
   font-size: 75%;
   text-align: right;

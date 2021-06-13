@@ -1,0 +1,112 @@
+/*
+Colours:
+#658EA9
+#88B2CC
+#E7D4C0
+#E98973
+https://www.canva.com/colors/color-palettes/backdoor-casual/
+https://bondvet.com/veterinary-clinic-services
+https://vegibit.com/bootstrap-modal-form-examples/
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_date
+https://www.codeply.com/go/ZgNuykcV29/bootstrap-modal-wizard-with-progress-bar
+https://www.w3schools.com/bootstrap/bootstrap_grid_basic.asp
+https://beachesanimalhospital.com/annual-diagnostics/
+https://stackoverflow.com/questions/35993300/horizontally-scrollable-list-of-cards-in-bootstrap/42117768#42117768
+https://stackoverflow.com/questions/49911051/how-to-change-button-active-color-in-bootstrap-4
+
+logo:
+https://www.thesitewizard.com/archive/favicon.shtml
+https://www.shutterstock.com/image-vector/dog-cat-pet-care-outline-line-1064522351
+
+photos:
+https://www.gettyimages.ca/detail/photo/happy-vet-royalty-free-image/854129808
+https://www.shutterstock.com/image-photo/young-vet-doctor-boston-terrier-looking-1533669299?id=1533669299&irclickid=SLn2w0QIBxyLUh8wUx0Mo37BUkBwMgVr3zmrQg0&irgwc=1&utm_medium=Affiliate&utm_campaign=Curly%20Eskimo&utm_source=13749&utm_term=photo-search-bottom&c3ch=Affiliate&c3nid=IR-13749
+https://www.gettyimages.ca/detail/photo/making-sure-your-beloved-pet-stays-healthy-royalty-free-image/453661859
+
+*/
+
+h1{
+  font-family: 'Oxygen', serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+h2{
+  font-family: 'Oxygen', serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+h5{
+  font-family: 'Oxygen', serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+}
+.contactInfo{
+    font-size: 16px;
+}
+td{
+    font-size: 25px;
+}
+.navbar-custom{
+    background-color: #88B2CC;
+    color: black;
+}
+
+.btn-primary{
+    background-color: #658EA9;
+    font-size: 20px;
+}
+
+.btn-primary:hover{
+    background-color: #4e6d82;
+}
+
+.btn-primary:focus{
+    background-color: #4e6d82;
+}
+
+.btn-primary:active{
+    background-color: #4e6d82;
+    box-shadow: 0 1px 1px #4e6d82 inset, 0 0 8px #4e6d82;
+    outline: 0 none;
+}
+.btn-primary:not(:disabled):not(.disabled):active{
+  background: #4e6d82;
+  outline: 0 none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):focus{
+  box-shadow: 0 0 5px #4e6d82;
+}
+
+.btn-secondary{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.accordion-button{
+    font-weight: bold;
+}
+.directory{
+    background-color: #88B2CC;
+}
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+#signature{
+  font-size: 75%;
+  text-align: right;
+}
